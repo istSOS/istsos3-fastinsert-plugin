@@ -40,7 +40,7 @@ tornado example.
 
 Add this class:
 
-```python3
+```python
 class FastInsertHandler(BaseHandler):
 
     MODE_IRREGULAR = 1
@@ -87,7 +87,7 @@ class FastInsertHandler(BaseHandler):
 And configure the tornado Application configuring the handlers, like this:
 
 
-```python3
+```python
 app = Application([
     (r'/sos', SosHandler),
     (r'/rest', RestHandler),
