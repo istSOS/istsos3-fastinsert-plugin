@@ -1,0 +1,15 @@
+{
+  "name": "FastInsert",
+  "version": "1.0.0",
+  "author": "supsi",
+  "author_email": "geoservice@supsi.ch",
+  "description": "This is an istSOS3 plugin adding fasti insert capabilities",
+  "license": "GPL3",
+  "url": "https://github.com/ist-supsi/istsos3-fastinsert-plugin",
+  "img": "https://github.com/ist-supsi/istsos3-fastinsert-plugin/logo.png",
+  "api": {
+    "FASTINSERT": [
+      "fastinsert.insert", "Insert"
+    ]
+  }
+}
