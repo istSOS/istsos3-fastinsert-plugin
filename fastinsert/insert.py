@@ -197,7 +197,7 @@ class Insert(CompositeAction):
                     UPDATE public.offerings
                     SET
                         pt_end=%s::TIMESTAMPTZ,
-                        et_end=%s::TIMESTAMPTZ
+                        pt_begin=%s::TIMESTAMPTZ
                     WHERE id = %s;
                 """, (sampling_time, sampling_time, offering['id']))
 
